@@ -14,7 +14,7 @@
  */
 
 // Enter your Google Map API key in this variable:
-// var googleMapAPIKey = "AIzaSyAG8QzzblFF4sXjZS6Mbq4UVkd8CMoVK44";
+// var googleMapAPIKey = "AIzaSyAG8QzzblFF4sXjZS6Mbq4UVkd8CMoVK44"; // replaced with API loader in survey header
 
 var test
 
