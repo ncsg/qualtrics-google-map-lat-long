@@ -14,7 +14,7 @@
  */
 
 // Enter your Google Map API key in this variable:
-var googleMapAPIKey = "AIzaSyAG8QzzblFF4sXjZS6Mbq4UVkd8CMoVK44";
+// var googleMapAPIKey = "AIzaSyAG8QzzblFF4sXjZS6Mbq4UVkd8CMoVK44";
 
 var test
 
@@ -243,22 +243,22 @@ Qualtrics.SurveyEngine.addOnload(function() {
 });
 
 // Load the Google Maps API if it is not already loaded.
-try {
-    if (typeof googleMapJS == 'undefined') {
-        var googleMapJS;
-        if (googleMapJS == null) {
-            googleMapJS = document.createElement('script');
-            if (googleMapAPIKey == "Your Key" || googleMapAPIKey == null) {
-                googleMapJS.src = 'https://maps.googleapis.com/maps/api/js' + "?libraries=places";
-            } else {
-                googleMapJS.src = 'https://maps.googleapis.com/maps/api/js?libraries=places&key=' + googleMapAPIKey;
-            }
-            document.head.appendChild(googleMapJS);
-        }
-    } else {
-        console.log("Map already loaded.");
-    }
-} catch (err) {
-    console.log("Unable to load Google Maps API. Details: " + err);
-    alert("Unable to load Google Maps API.");
-}
+// try {
+//     if (typeof googleMapJS == 'undefined') {
+//         var googleMapJS;
+//         if (googleMapJS == null) {
+//             googleMapJS = document.createElement('script');
+//             if (googleMapAPIKey == "Your Key" || googleMapAPIKey == null) {
+//                 googleMapJS.src = 'https://maps.googleapis.com/maps/api/js' + "?libraries=places";
+//             } else {
+//                 googleMapJS.src = 'https://maps.googleapis.com/maps/api/js?libraries=places&key=' + googleMapAPIKey;
+//             }
+//             document.head.appendChild(googleMapJS);
+//         }
+//     } else {
+//         console.log("Map already loaded.");
+//     }
+// } catch (err) {
+//     console.log("Unable to load Google Maps API. Details: " + err);
+//     alert("Unable to load Google Maps API.");
+// }
